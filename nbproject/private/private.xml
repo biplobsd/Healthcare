@@ -3,24 +3,36 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/Work/Java/Netbeans/Hospital%20management/src/main/Doctor.java</file>
-            <file>file:/C:/Work/Java/Netbeans/Hospital%20management/src/main/FileWrite.java</file>
-            <file>file:/C:/Work/Java/Netbeans/Hospital%20management/src/main/AdminDoctorPanelList.java</file>
-            <file>file:/C:/Work/Java/Netbeans/Hospital%20management/src/main/AdminDoctorPanelUpdate.java</file>
-            <file>file:/C:/Work/Java/Netbeans/Hospital%20management/src/main/AdminLoginFrame.java</file>
-            <file>file:/C:/Work/Java/Netbeans/Hospital%20management/src/main/DoctorHomePage.java</file>
-            <file>file:/C:/Work/Java/Netbeans/Hospital%20management/src/main/Patient.java</file>
-            <file>file:/C:/Work/Java/Netbeans/Hospital%20management/src/main/AdminDoctorPanelRemove.java</file>
-            <file>file:/C:/Work/Java/Netbeans/Hospital%20management/src/main/AdminDoctorPanelAdd.java</file>
-            <file>file:/C:/Work/Java/Netbeans/Hospital%20management/src/main/AdminPharPanelAdd.java</file>
+            <file>file:/G:/Healthcare/src/icon/PASSWORD.png</file>
+            <file>file:/G:/Healthcare/src/icon/arrow.png</file>
+            <file>file:/G:/Healthcare/src/icon/edit%20profile%20mini.png</file>
+            <file>file:/G:/Healthcare/src/icon/hms60.png</file>
+            <file>file:/G:/Healthcare/src/icon/as.jpg</file>
+            <file>file:/G:/Healthcare/src/icon/appointment%20mini.png</file>
+            <file>file:/G:/Healthcare/src/icon/home2.png</file>
+            <file>file:/G:/Healthcare/src/icon/editprofile.png</file>
+            <file>file:/G:/Healthcare/src/icon/back%20botton.png</file>
+            <file>file:/G:/Healthcare/src/icon/receptionist%20mini.png</file>
+            <file>file:/G:/Healthcare/src/icon/User.png</file>
+            <file>file:/G:/Healthcare/src/main/AdminDoctorPanelAdd.java</file>
+            <file>file:/G:/Healthcare/src/icon/Pharmacy%20mini.png</file>
+            <file>file:/G:/Healthcare/src/icon/admin%20%20mini.png</file>
+            <file>file:/G:/Healthcare/src/icon/user_1.png</file>
+            <file>file:/G:/Healthcare/src/icon/home.png</file>
+            <file>file:/G:/Healthcare/src/icon/jing.fm-health-care-clipart-836077.png</file>
+            <file>file:/G:/Healthcare/src/icon/admin.png</file>
         </group>
         <group name="Jframe">
-            <file>file:/C:/Users/alpha4d/Desktop/project/java/Healthcare/src/main/LoginAsFrame.java</file>
+            <file>file:/C:/Users/alpha4d/Desktop/project/java/Healthcare/src/main/FileRemove.java</file>
             <file>file:/C:/Users/alpha4d/Desktop/project/java/Healthcare/src/main/ReportPanel.java</file>
-            <file>file:/C:/Users/alpha4d/Desktop/project/java/Healthcare/src/main/Receptionist.java</file>
-            <file>file:/C:/Users/alpha4d/Desktop/project/java/Healthcare/src/main/Login.java</file>
-            <file>file:/C:/Users/alpha4d/Desktop/project/java/Healthcare/src/main/AdminDoctorPanelAdd.java</file>
+            <file>file:/C:/Users/alpha4d/Desktop/project/java/Healthcare/src/main/LoginAsFrame.java</file>
+            <file>file:/C:/Users/alpha4d/Desktop/project/java/Healthcare/src/main/PatientPanelRegistration.java</file>
+            <file>file:/C:/Users/alpha4d/Desktop/project/java/Healthcare/src/main/AdminHomePage.java</file>
+            <file>file:/C:/Users/alpha4d/Desktop/project/java/Healthcare/src/main/FileWrite.java</file>
             <file>file:/C:/Users/alpha4d/Desktop/project/java/Healthcare/src/main/FileRead.java</file>
+            <file>file:/C:/Users/alpha4d/Desktop/project/java/Healthcare/src/main/Receptionist.java</file>
+            <file>file:/C:/Users/alpha4d/Desktop/project/java/Healthcare/src/main/FileUpdate.java</file>
+            <file>file:/C:/Users/alpha4d/Desktop/project/java/Healthcare/src/main/PatientPanelAppointment.java</file>
         </group>
     </open-files>
 </project-private>
