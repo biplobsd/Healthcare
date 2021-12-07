@@ -21,23 +21,7 @@ import java.util.List;
  */
 public class FileUpdate {
 
-    public void fileUpdateDoctor(int i, Doctor aDoctor) {
-         List<Doctor> list = new ArrayList<Doctor>();
-        FileRead fr=new FileRead();
-        list=fr.fileReadDoctor();
-        list.set(i, aDoctor);
-        try {
-                FileOutputStream fos = new FileOutputStream("DoctorDB.txt");
-                ObjectOutputStream oos = new ObjectOutputStream(fos);
-                oos.writeObject(list);
-                oos.close();
-                fos.close();
-            } catch (FileNotFoundException e) {
-                System.out.println("File not found");
-            } catch (IOException e) {
-                System.out.println("Error initializing stream");
-            }
-    }
+    
      public void fileUpdatePatient(int i, Patient aPatient) {
          List<Patient> list = new ArrayList<Patient>();
         FileRead fr=new FileRead();

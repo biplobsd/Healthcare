@@ -2,7 +2,6 @@
 package main;
 
 import java.io.File;
-import main.*;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
@@ -37,26 +36,6 @@ public class FileRead {
         return listArray;
     }
     
-    public List<Doctor> fileReadDoctor() {
-        List<Doctor> listArray=new ArrayList<Doctor>();
-        try {
-            File dir = new File("DoctorDB.txt");
-            FileInputStream fis = new FileInputStream(dir);
-            ObjectInputStream ois = new ObjectInputStream(fis);
-            List<Doctor> list = (ArrayList<Doctor>) ois.readObject();
-            listArray=list;
-            ois.close();
-            fis.close();
-
-        } catch (FileNotFoundException e) {
-            System.out.println("File not found");
-        } catch (IOException e) {
-            System.out.println("Error initializing stream");
-        } catch(ClassNotFoundException e){
-            System.out.println("Class not found");
-        }
-        return listArray;
-    }
     
     public List<Login> fileReadLogin() {
         List<Login> listArray=new ArrayList<Login>();

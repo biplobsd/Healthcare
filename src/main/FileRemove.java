@@ -22,30 +22,6 @@ import javax.swing.JOptionPane;
  */
 public class FileRemove {
 
-    public void fileRemoveDoctor(List<Doctor> list) {
-        File dir = new File("DoctorDB.txt");
-
-        if (dir.exists()) {
-
-            try {
-                FileOutputStream fos = new FileOutputStream(dir);
-                try (ObjectOutputStream oos = new ObjectOutputStream(fos)) {
-                    oos.writeObject(list);
-                    oos.close();
-                    fos.close();
-                    JOptionPane.showMessageDialog(null, "Data remove Successfully",
-                            "Success", JOptionPane.WARNING_MESSAGE);
-                }
-            } catch (FileNotFoundException e) {
-                JOptionPane.showMessageDialog(null, "No Data Found",
-                        "ERROR", JOptionPane.WARNING_MESSAGE);
-            } catch (IOException e) {
-                System.out.println("Error initializing stream");
-            }
-
-        }
-
-    }
     public void fileRemovePatient(List<Patient> list) {
         File dir = new File("PatientDB.txt");
 

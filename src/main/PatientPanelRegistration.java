@@ -430,8 +430,7 @@ public class PatientPanelRegistration extends javax.swing.JFrame {
     }//GEN-LAST:event_addMouseClicked
 
     private void updateMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_updateMouseClicked
-        AdminDoctorPanelUpdate pupdate=new AdminDoctorPanelUpdate();
-        pupdate.setVisible(true);
+
         this.dispose();
     }//GEN-LAST:event_updateMouseClicked
  public void clear() {

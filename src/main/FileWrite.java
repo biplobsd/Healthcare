@@ -73,56 +73,7 @@ public class FileWrite {
         }
     }
 
-    public void fileWriteDoctor(Doctor aDoctor) {
-
-        List<Doctor> list = new ArrayList<Doctor>();
-        list.add(aDoctor);
-
-        File dir = new File("DoctorDB.txt");
-
-        if (dir.exists()) {
-            List<Doctor> localList = new ArrayList<Doctor>();
-
-            try {
-                FileInputStream fis = new FileInputStream(dir);
-                ObjectInputStream ois = new ObjectInputStream(fis);
-
-                List<Doctor> tempList = (ArrayList<Doctor>) ois.readObject();
-                localList = tempList;
-                ois.close();
-                fis.close();
-
-                localList.add(aDoctor);
-
-                FileOutputStream fos = new FileOutputStream(dir);
-                ObjectOutputStream oos = new ObjectOutputStream(fos);
-                oos.writeObject(localList);
-                oos.close();
-
-            } catch (FileNotFoundException e) {
-                System.out.println("File not found");
-            } catch (IOException e) {
-                System.out.println(e.getMessage());
-            } catch (ClassNotFoundException e) {
-                e.printStackTrace();
-            }
-
-        } else {
-            try {
-                FileOutputStream fos = new FileOutputStream(dir);
-                try (ObjectOutputStream oos = new ObjectOutputStream(fos)) {
-                    oos.writeObject(list);
-                    oos.close();
-                    fos.close();
-                }
-            } catch (FileNotFoundException e) {
-                System.out.println("File not found");
-            } catch (IOException e) {
-                System.out.println("Error initializing stream");
-            }
-
-        }
-    }
+    
     
     public void fileWritePharmacist(Pharmacist aPharmacist) {
 
