@@ -79,7 +79,7 @@ public class AdminDoctorPanelList extends javax.swing.JFrame {
         add.setBackground(new java.awt.Color(0, 204, 204));
         add.setFont(new java.awt.Font("Arial Black", 1, 18)); // NOI18N
         add.setForeground(new java.awt.Color(255, 255, 255));
-        add.setText("Add");
+        add.setText("add");
         add.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 addMouseClicked(evt);
