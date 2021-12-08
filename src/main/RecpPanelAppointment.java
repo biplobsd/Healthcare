@@ -5,6 +5,7 @@
  */
 package main;
 
+import patient.Patient;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
